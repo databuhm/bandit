@@ -7,5 +7,5 @@ The password for the next level is stored in a file somewhere under the inhere d
 * 1033 bytes in size
 * not executable
 
-### SolUtion
+### Solution
 `find ./ -type f -size 1033c ! -executable`
