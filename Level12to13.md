@@ -16,4 +16,4 @@ Or better, use the command “mktemp -d”. Then copy the datafile using cp, and
 7. `tar -xf {filename.tar}`
 
 ### Key Concept
-₩Repeatedly and in various methods, compressed files₩
+`Repeatedly and in various methods, compressed files`
