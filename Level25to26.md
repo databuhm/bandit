@@ -5,7 +5,8 @@ Logging in to bandit26 from bandit25 should be fairly easy… The shell for user
 
 ### Solution
 `cat /etc/passwd | grep bandit26`
-`more trick`
+
+more trick
 1. `ssh -i bandit26.sshkey bandit26@localhost -p 2220` using mini window size terminal
 2. `v`
 3. `:set shell=/bin/bash`
