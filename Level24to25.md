@@ -7,10 +7,11 @@ You do not need to create new connections each time
 ### Solution
 `Brute Force`
 1. `mkdir -p /tmp/bandit24_databuhm && cd /tmp/bandit24_databuhm`
-2. ```
+2. `vi test.sh`
+3. ```
    for i in {0000..9999}
    do
    echo "{bandit24_password} $i"
    done
    ```
-3. `./test.sh | nc localhost 30002 | grep -v "Wrong"`
+4. `./test.sh | nc localhost 30002 | grep -v "Wrong"`
